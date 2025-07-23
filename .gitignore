@@ -1,0 +1,13 @@
+# Ignore virtual env and cache
+venv/
+__pycache__/
+
+# Ignore embeddings / large models
+vectorstore/
+
+# Ignore secrets
+.env
+
+# Ignore PDFs and data
+*.pdf
+data/
